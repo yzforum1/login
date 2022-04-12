@@ -24,7 +24,7 @@ onload = function() {
         $elem.style.left = (x - 10) + "px";
         $elem.style.top = (y - 20) + "px";
         clearInterval(anim);
-	$elem.innerText = arr[n]
+	$elem.innerText = arr[n-1]
         $elem.style.fontSize = Math.random() * 10 + 8 + "px";
         var increase = 0;
         var anim;
